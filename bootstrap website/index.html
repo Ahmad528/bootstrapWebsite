@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap website</title>
+
+    <!-- font awesome icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!-- nav section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed d-lg-flex justify-content-between w-100 p-0" style="z-index: 1;">
+        <a href="#"><img src="/images/ice-cream icon.png" alt="logo" height="60" class="px-3"></a>
+        <button type="button" class="navbar-toggler navbar-text " data-bs-toggle="collapse" data-bs-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+        <div class="p-2 collapse navbar-collapse text-uppercase" id="nav-content">
+            <ul class="navbar-nav p">
+                <li class="nav-item-active"><a href="#home" class="nav-link text-light">home</a></li>
+                <li class="nav-item"><a href="#flavours" class="nav-link text-light">flavours</a></li>
+                <li class="nav-item"><a href="#recipe" class="nav-link text-light">recipes</a></li>
+                <li class="nav-item"><a href="#footer" class="nav-link text-light">contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end of navbar section -->
+
+    <!-- home section -->
+    <section id="home" class="home">
+        <div style="background: url('/images/ice-cream-bg.jpg') no-repeat right/cover fixed; min-height: 100vh;" class="pt-5 d-flex justify-content-center align-items-center">
+            <div class="col-sm-6 col-lg-4 col-8 p-2 rounded" style="background: rgba(253,232,242,0.6);">
+                <p class="text-center display-3 fw-bold text-warning">Ice-cream</p>
+                <p class="fs-5 font-monospace mt-2 text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, officia eos atque reiciendis repudiandae suscipit quisquam ipsam et quae saepe illum, nam quia repellendus earum ullam excepturi doloribus fugiat sit nemo laudantium? </p>
+            </div>
+        </div>
+    </section>
+    <!-- end of home section -->
+
+    <!-- flavours section -->
+    <section class="container-fluid mt-5" id="flavours">
+        <h1 class="text-uppercase text-warning font-monospace fw-bold ls-5 display-5">your flavours</h1>
+
+        <div class="col-11 m-auto">
+            <div class="p-3 mt-3 d-lg-flex align-items-center border rounded bg-light">
+                <div>
+                    <img src="/images/ice-cream-1.jpg" alt="img" class="img-fluid col-lg-10">
+                </div>
+                <div class="col-lg-6 p-3">
+                    <h3 class="card-title text-success text-capitalize">Granita</h3>
+                    <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus maiores suscipit at sunt eius, corporis voluptatem atque itaque similique rem totam ea iusto! Perferendis porro at adipisci, harum reiciendis saepe voluptates cumque impedit temporibus animi asperiores aliquam recusandae minus ea, natus sed alias magnam enim voluptatum, consequatur autem laboriosam sit.</p>
+                </div>
+            </div>
+
+            <div class="p-3 mt-3 d-lg-flex align-items-center border rounded bg-light flex-lg-row-reverse">
+                <div>
+                    <img src="/images/ice-cream-2.jpg" alt="img" class="img-fluid col-lg-10">
+                </div>
+                <div class="col-lg-6 p-3">
+                    <h3 class="card-title text-success text-capitalize">Gelato</h3>
+                    <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus maiores suscipit at sunt eius, corporis voluptatem atque itaque similique rem totam ea iusto! Perferendis porro at adipisci, harum reiciendis saepe voluptates cumque impedit temporibus animi asperiores aliquam recusandae minus ea, natus sed alias magnam enim voluptatum, consequatur autem laboriosam sit.</p>
+                </div>
+            </div>
+
+            <div class="p-3 mt-3 d-lg-flex align-items-center border rounded bg-light">
+                <div>
+                    <img src="/images/ice-cream-3.jpg" alt="img" class="img-fluid col-lg-10">
+                </div>
+                <div class="col-lg-6 p-3">
+                    <h3 class="card-title text-success text-capitalize">kulfi ice-cream</h3>
+                    <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus maiores suscipit at sunt eius, corporis voluptatem atque itaque similique rem totam ea iusto! Perferendis porro at adipisci, harum reiciendis saepe voluptates cumque impedit temporibus animi asperiores aliquam recusandae minus ea, natus sed alias magnam enim voluptatum, consequatur autem laboriosam sit.</p>
+                </div>
+            </div>
+
+            <div class="p-3 mt-3 d-lg-flex align-items-center border rounded bg-light flex-lg-row-reverse">
+                <div>
+                    <img src="/images/ice-cream-4.jpg" alt="img" class="img-fluid col-lg-10">
+                </div>
+                <div class="col-lg-6 p-3">
+                    <h3 class="card-title text-success text-capitalize">soft-serve</h3>
+                    <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus maiores suscipit at sunt eius, corporis voluptatem atque itaque similique rem totam ea iusto! Perferendis porro at adipisci, harum reiciendis saepe voluptates cumque impedit temporibus animi asperiores aliquam recusandae minus ea, natus sed alias magnam enim voluptatum, consequatur autem laboriosam sit.</p>
+                </div>
+            </div>
+
+            <div class="p-3 mt-3 d-lg-flex align-items-center border rounded bg-light">
+                <div>
+                    <img src="/images/ice-cream-5.jpg" alt="img" class="img-fluid col-lg-10">
+                </div>
+                <div class="col-lg-6 p-3">
+                    <h3 class="card-title text-success text-capitalize">sorbet ice-cream</h3>
+                    <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus maiores suscipit at sunt eius, corporis voluptatem atque itaque similique rem totam ea iusto! Perferendis porro at adipisci, harum reiciendis saepe voluptates cumque impedit temporibus animi asperiores aliquam recusandae minus ea, natus sed alias magnam enim voluptatum, consequatur autem laboriosam sit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of flavours section -->
+
+    <!-- recipe section -->
+    <section class="mt-5 px-3" id="recipe">
+        <h1 class="text-uppercase text-warning font-monospace fw-bold ls-5 display-5">recipes</h1>
+
+        <div class="p-4 mt-3 row col-11 m-auto border bg-light">
+            <div class="card p-2 col-lg-3 col-md-4 col-sm-2 mt-2 border-0 bg-white">
+                <img src="/images/ice-cream-1.jpg" alt="img" class="card-img h-75">
+                <div class="card-body d-flex justify-content-between mt-1">
+                    <h4 class="card-title text-success">Granita</h4>
+                    <a href="#" class="btn btn-primary">Recipe</a>
+                </div>
+            </div>
+            <div class="card p-2 col-lg-3 col-md-4 col-sm-2 mt-2 border-0 bg-white">
+                <img src="/images/ice-cream-2.jpg" alt="img" class="card-img h-75">
+                <div class="card-body d-flex justify-content-between mt-1">
+                    <h4 class="card-title text-success">Gelato</h4>
+                    <a href="#" class="btn btn-primary">Recipe</a>
+                </div>
+            </div>
+
+            <div class="card p-2 col-lg-3 col-md-4 col-sm-2 mt-2 border-0 bg-white">
+                <img src="/images/ice-cream-3.jpg" alt="img" class="card-img h-75">
+                <div class="card-body d-flex justify-content-between mt-1">
+                    <h4 class="card-title text-success">Kulfi</h4>
+                    <a href="#" class="btn btn-primary">Recipe</a>
+                </div>
+            </div>
+
+            <div class="card p-2 col-lg-3 col-md-4 col-sm-2 mt-2 border-0 bg-white">
+                <img src="/images/ice-cream-4.jpg" alt="img" class="card-img h-75">
+                <div class="card-body d-flex justify-content-between mt-1">
+                    <h4 class="card-title text-success">Soft Serve</h4>
+                    <a href="#" class="btn btn-primary">Recipe</a>
+                </div>
+            </div>
+
+            <div class="card p-2 col-lg-3 col-md-4 col-sm-2 mt-2 border-0 bg-white">
+                <img src="/images/ice-cream-5.jpg" alt="img" class="card-img h-75">
+                <div class="card-body d-flex justify-content-between mt-1">
+                    <h4 class="card-title text-success">Sorbet</h4>
+                    <a href="#" class="btn btn-primary">Recipe</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of recipe section -->
+
+    <!-- footer section -->
+    <section id="footer" class="mt-5">
+        <div class="text-white bg-dark p-3">
+            <div class="d-flex justify-content-between">
+                <a href="#" class="btn btn-info text-white">HELP</a>
+                <a href="#" class="btn btn-info text-white">FAQs</a>
+            </div>
+            <div class="d-flex justify-content-between align-items-center" style="height: 70vh;">
+                <div class="col-11 col-lg-4 m-auto">
+                    <button type="button" class="btn text-light border-2 border-white rounded-circle m-3"><i class="fa fa-facebook"></i> </button>
+                    <button type="button" class="btn text-light border-2 border-white rounded-circle m-3"><i class="fa fa-whatsapp"></i> </button>
+                    <button type="button" class="btn text-light border-2 border-white rounded-circle m-3"><i class="fa fa-youtube"></i> </button>
+                    <button type="button" class="btn text-light border-2 border-white rounded-circle m-3"><i class="fa fa-instagram"></i> </button>
+                    <button type="button" class="btn text-light border-2 border-white rounded-circle m-3"><i class="fa fa-telegram"></i> </button>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut adipisci facilis rerum dicta reprehenderit culpa eos a aliquid omnis minus, magni similique ipsa, enim illum, excepturi earum unde quis? Alias, illo quibusdam? Doloribus illum itaque quisquam temporibus numquam est sequi.</h5>
+                </div>
+            </div>
+        </div>
+        <div class="text-center fs-5 p-1 bg-secondary">
+            <p class="pt-2 text-white font-monospace">&#169 2021 Copyright : <strong class="text-info">Ice-creamHut.com</strong></p>
+        </div>
+    </section>
+    <!-- end of footer section -->
+
+
+
+
+
+
+
+
+    <!-- bootstrap bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
